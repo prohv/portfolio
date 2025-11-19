@@ -39,13 +39,13 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
         </div>
         
         {/* Name Display - Font Updated */}
-        <div className="font-bold text-[1.7rem] text-gray-900 font-display tracking-wide mr-2">
+        <div className="font-bold text-[1.3rem] sm:text-[1.7rem] text-gray-900 font-display tracking-wide mr-2">
           Harsh Vardhan Singh
         </div>
       </div>
 
       {/* Main Profile Card */}
-      <div className="bg-white rounded-[2rem] p-4 shadow-sm flex flex-col min-h-[380px]">
+      <div className="bg-white rounded-[2rem] p-4 shadow-sm flex flex-col min-h-[280px] sm:min-h-[380px]">
         <div className="flex justify-between items-start">
           <div className="relative">
             <div className="w-[9.5rem] h-[9.5rem] rounded-2xl overflow-hidden border-4 border-transparent hover:scale-105 transition-transform duration-500">
@@ -59,7 +59,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
         </div>
 
         <div className="space-y-1">
-          <p className="text-[1.2rem] leading-[1.4] p-2 font-medium text-gray-900 tracking-tight">
+          <p className="text-[1rem] sm:text-[1.2rem] leading-[1.4] p-2 font-medium text-gray-900 tracking-tight">
             I'm a CS student from VIT, Vellore specializing in Full-Stack Development. I love building impactful & actual usable solutions that deliver results. <br></br> My expertise also extends to DevOps, with hands on experience in Docker, Kubernetes, Terraform and Jenkins on Google Cloud Platform. <br></br> Let's connect to build the next big thing!
           </p>
         </div>
