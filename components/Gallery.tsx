@@ -95,7 +95,7 @@ export const Gallery: React.FC<GalleryProps> = ({ currentView, onNavigate }) => 
                 <div className="flex-1 bg-gray-200 flex items-center justify-center">
                      {/* Using a standard sample PDF for demonstration */}
                      <iframe 
-                        src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+                        src="/personal/resume/Harsh_resume_v1.pdf"
                         className="w-full h-full rounded-[2rem]"
                         title="Resume PDF"
                      ></iframe>
