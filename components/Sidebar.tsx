@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
-import { Clock } from './Clock';
 import { Marquee } from './Marquee';
 
 interface SidebarProps {
@@ -27,17 +26,16 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
     <>
       {/* Top Navigation Bar - Unified single bar stretching width */}
       <div className="w-full bg-white rounded-[2rem] p-2 pl-4 pr-4 flex items-center justify-between shadow-sm min-h-[60px]">
-        <div 
+        <div
           onClick={handleLogoClick}
-          className="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shrink-0 cursor-pointer hover:bg-gray-800 transition-colors"
+          className="w-10 h-10 rounded-full flex items-center justify-center shrink-0 cursor-pointer hover:opacity-80 transition-opacity"
           title="Reset to Home"
         >
-          {/* Abstract Logo Icon */}
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-             <path d="M12 4C14 4 15 6 15 6L12 8L9 6C9 6 10 4 12 4Z" fill="currentColor"/>
-             <path d="M12 20C10 20 9 18 9 18L12 16L15 18C15 18 14 20 12 20Z" fill="currentColor"/>
-             <circle cx="12" cy="12" r="3" fill="currentColor"/>
-          </svg>
+          <img
+            src="/personal/images/hv_web_logo.png"
+            alt="Logo"
+            className="w-10 h-10 object-contain"
+          />
         </div>
         
         {/* Name Display - Font Updated */}
@@ -50,10 +48,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
       <div className="bg-white rounded-[2rem] p-6 shadow-sm flex flex-col gap-6 min-h-[380px]">
         <div className="flex justify-between items-start">
           <div className="relative">
-            <div className="w-32 h-32 rounded-2xl overflow-hidden bg-pink-100 border-4 border-transparent hover:scale-105 transition-transform duration-500">
-              <img 
-                src="https://picsum.photos/seed/cartoon_avatar_123/400/400" 
-                alt="Profile" 
+            <div className="w-32 h-32 rounded-2xl overflow-hidden border-4 border-transparent hover:scale-105 transition-transform duration-500">
+              <img
+                src="/personal/images/profile-pic.jpg"
+                alt="Profile"
                 className="w-full h-full object-cover"
               />
             </div>
