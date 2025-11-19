@@ -59,7 +59,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
         </div>
 
         <div className="space-y-1">
-          <p className="text-[1.2rem] leading-[1.4] p-2 font-normal text-gray-900 tracking-tight">
+          <p className="text-[1.2rem] leading-[1.4] p-2 font-medium text-gray-900 tracking-tight">
             I'm a CS student from VIT, Vellore specializing in Full-Stack Development. I love building impactful & actual usable solutions that deliver results. <br></br> My expertise also extends to DevOps, with hands on experience in Docker, Kubernetes, Terraform and Jenkins on Google Cloud Platform. <br></br> Let's connect to build the next big thing!
           </p>
         </div>
@@ -69,7 +69,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
       <Marquee />
 
       {/* Resume Section - Font Updated */}
-      <div 
+      <div
         onClick={() => onNavigate('resume')}
         className="bg-white rounded-[2rem] py-3 px-6 shadow-sm hover:shadow-md transition-shadow cursor-pointer group"
       >

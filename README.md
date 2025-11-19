@@ -7,9 +7,3 @@ Built with clean, minimal code and deployed on Netlify.
 
 **Netlify:** [https://proharshv.netlify.app](https://proharshv.netlify.app)
 
-## 🛠️ Tech Stack
-
-- React
-- Tailwind CSS
-- Vite
-- Netlify
