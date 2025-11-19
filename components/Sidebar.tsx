@@ -39,7 +39,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
         </div>
         
         {/* Name Display - Font Updated */}
-        <div className="font-bold text-[1.3rem] sm:text-[1.7rem] text-gray-900 font-display tracking-wide mr-2">
+        <div className="font-bold text-[1.2rem] sm:text-[1.7rem] text-gray-900 font-display tracking-wide mr-2">
           Harsh Vardhan Singh
         </div>
       </div>
@@ -59,8 +59,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
         </div>
 
         <div className="space-y-1">
-          <p className="text-[1rem] sm:text-[1.2rem] leading-[1.4] p-2 font-medium text-gray-900 tracking-tight">
-            I'm a CS student from VIT, Vellore specializing in Full-Stack Development. I love building impactful & actual usable solutions that deliver results. <br></br> My expertise also extends to DevOps, with hands on experience in Docker, Kubernetes, Terraform and Jenkins on Google Cloud Platform. <br></br> Let's connect to build the next big thing!
+          <p className="text-[0.9rem] sm:text-[1.2rem] leading-[1.4] p-2 font-medium text-gray-900 tracking-tight">
+            I'm a CS student from VIT, Vellore specializing in Full-Stack Development. I love building impactful & actual usable solutions that deliver results. My expertise also extends to DevOps, with hands on experience in Docker, Kubernetes, Terraform and Jenkins on Google Cloud Platform. <br></br> Let's connect to build the next big thing!
           </p>
         </div>
       </div>
