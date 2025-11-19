@@ -8,11 +8,11 @@ interface SidebarProps {
 
 export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
   const socialLinks = [
-    { name: 'GitHub', icon: 'https://cdn.simpleicons.org/github', url: '#' },
-    { name: 'X', icon: 'https://cdn.simpleicons.org/x', url: '#' },
-    { name: 'LeetCode', icon: 'https://cdn.simpleicons.org/leetcode', url: '#' },
-    { name: 'HackerRank', icon: 'https://cdn.simpleicons.org/hackerrank', url: '#' },
-    { name: 'Google', icon: 'https://cdn.simpleicons.org/google', url: '#' },
+    { name: 'GitHub', icon: 'https://cdn.simpleicons.org/github', url: 'https://github.com/prohv' },
+    { name: 'LinkedIn', icon: 'https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg', url: 'https://linkedin.com/in/proharsh' },
+    { name: 'X', icon: 'https://cdn.simpleicons.org/x', url: 'https://x.com/proharshv' },
+    { name: 'LeetCode', icon: 'https://cdn.simpleicons.org/leetcode', url: 'https://leetcode.com/u/prohv' },
+    { name: 'HackerRank', icon: 'https://cdn.simpleicons.org/hackerrank', url: 'https://hackerrank.com/prohv' },
   ];
 
   const handleLogoClick = () => {
@@ -60,7 +60,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
 
         <div className="space-y-1">
           <p className="text-[0.9rem] sm:text-[1.2rem] leading-[1.4] p-2 font-medium text-gray-900 tracking-tight">
-            I'm a CS student from VIT, Vellore specializing in Full-Stack Development. I love building impactful & actual usable solutions that deliver results. My expertise also extends to DevOps, with hands on experience in Docker, Kubernetes, Terraform and Jenkins on Google Cloud Platform. <br></br> Let's connect to build the next big thing!
+            I'm a CS student from VIT, Vellore specializing in Full-Stack Development. I love building impactful & actual usable solutions that deliver results. <br></br> My expertise also extends to DevOps, with hands on experience in Docker, Kubernetes, Terraform and Jenkins on Google Cloud Platform. <br></br> Let's connect to build the next big thing!
           </p>
         </div>
       </div>
