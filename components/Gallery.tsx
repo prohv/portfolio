@@ -33,30 +33,36 @@ export const Gallery: React.FC<GalleryProps> = ({ currentView, onNavigate }) => 
             
             {/* Mac Image Card */}
             <div className="md:col-span-7 bg-[#e8e6e1] rounded-[2rem] overflow-hidden shadow-sm min-h-[350px] relative group cursor-pointer">
-                <img 
-                    src="https://picsum.photos/seed/vintage_mac/800/600" 
-                    alt="Macintosh Classic" 
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
-                />
+                <a href="https://goal-wall.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <img 
+                        src="https://picsum.photos/seed/vintage_mac/800/600" 
+                        alt="Macintosh Classic" 
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                    />
+                </a>
             </div>
 
             {/* Black 3D Logo Card */}
             <div className="md:col-span-5 bg-black rounded-[2rem] flex items-center justify-center min-h-[350px] relative overflow-hidden group cursor-pointer">
-                <div className="relative w-32 h-32 group-hover:rotate-12 transition-transform duration-500">
-                    <svg viewBox="0 0 100 100" className="w-full h-full text-white stroke-current fill-none stroke-[8]">
-                        <path d="M20,20 L50,20 L50,80 L20,80 Z" transform="translate(0, 10)" />
-                        <path d="M60,20 L90,20 L90,80 L60,80 Z" transform="translate(0, 10)" />
-                    </svg>
-                </div>
+                <a href="https://github.com/prohv/bulletpages" target="_blank" rel="noopener noreferrer">
+                    <div className="relative w-32 h-32 group-hover:rotate-12 transition-transform duration-500">
+                        <svg viewBox="0 0 100 100" className="w-full h-full text-white stroke-current fill-none stroke-[8]">
+                            <path d="M20,20 L50,20 L50,80 L20,80 Z" transform="translate(0, 10)" />
+                            <path d="M60,20 L90,20 L90,80 L60,80 Z" transform="translate(0, 10)" />
+                        </svg>
+                    </div>
+                </a>
             </div>
 
             {/* Bottom Green Texture Card */}
             <div className="md:col-span-12 bg-[#1a4d3d] rounded-[2rem] min-h-[280px] overflow-hidden relative shadow-sm group">
-                <img 
-                    src="https://picsum.photos/seed/green_texture/1200/400" 
-                    alt="Green Texture" 
-                    className="w-full h-full object-cover opacity-80 mix-blend-overlay"
-                />
+                <a href="https://github.com/prohv/autoport" target="_blank" rel="noopener noreferrer">
+                    <img 
+                        src="https://picsum.photos/seed/green_texture/1200/400" 
+                        alt="Green Texture" 
+                        className="w-full h-full object-cover opacity-80 mix-blend-overlay"
+                    />
+                </a>
                 <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
                     <div className="w-full">
                         <h2 className="text-7xl md:text-8xl font-bold text-white/20 tracking-tighter uppercase whitespace-nowrap animate-scroll">
@@ -78,11 +84,13 @@ export const Gallery: React.FC<GalleryProps> = ({ currentView, onNavigate }) => 
             </div>
 
             <div className="md:col-span-6 bg-[#ffedd5] rounded-[2rem] h-[350px] overflow-hidden relative group cursor-pointer">
-                <img 
-                    src="https://picsum.photos/seed/architecture/600/600" 
-                    alt="Architecture" 
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
+                <a href="https://github.com/prohv/Thriftify-Women-Techies-25" target="_blank" rel="noopener noreferrer">
+                    <img 
+                        src="https://picsum.photos/seed/architecture/600/600" 
+                        alt="Architecture" 
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                </a>
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/50 to-transparent">
                     <span className="text-white font-medium">Interior Concepts</span>
                 </div>

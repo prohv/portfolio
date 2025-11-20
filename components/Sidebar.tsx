@@ -11,8 +11,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ onNavigate }) => {
     { name: 'GitHub', icon: 'https://cdn.simpleicons.org/github', url: 'https://github.com/prohv' },
     { name: 'LinkedIn', icon: 'https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg', url: 'https://linkedin.com/in/proharsh' },
     { name: 'X', icon: 'https://cdn.simpleicons.org/x', url: 'https://x.com/proharshv' },
-    { name: 'LeetCode', icon: 'https://cdn.simpleicons.org/leetcode', url: 'https://leetcode.com/u/prohv' },
     { name: 'HackerRank', icon: 'https://cdn.simpleicons.org/hackerrank', url: 'https://hackerrank.com/prohv' },
+    { name: 'Google', icon: 'https://cdn.simpleicons.org/google', url: 'https://www.skills.google/public_profiles/4eb28a11-1349-4b7f-aa0a-4b095b900e38/badges/20349701' },
   ];
 
   const handleLogoClick = () => {
