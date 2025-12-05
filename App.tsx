@@ -8,7 +8,7 @@ const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewState>('gallery');
 
   return (
-    <div className="min-h-screen bg-[#dcdcdc] p-2 sm:p-4 font-sans antialiased text-gray-900 flex justify-center">
+    <div className="min-h-screen bg-[#dcdcdc] p-2 sm:p-4 font-sans antialiased text-gray-900 flex justify-center"> 
       <div className="max-w-[1600px] w-full grid grid-cols-1 lg:grid-cols-[460px_1fr] gap-4">
         
         {/* Left Column - Sticky on Desktop */}

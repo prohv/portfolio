@@ -29,71 +29,72 @@ export const Gallery: React.FC<GalleryProps> = ({ currentView, onNavigate }) => 
         
         {currentView === 'gallery' ? (
             /* GALLERY GRID VIEW */
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-4 auto-rows-min pb-8">
-            
-            {/* Mac Image Card */}
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-4 auto-rows-min">
+
+            {/* Project Image Card 1 */}
             <div className="md:col-span-7 bg-[#e8e6e1] rounded-[2rem] overflow-hidden shadow-sm min-h-[350px] relative group cursor-pointer">
-                <a href="https://goal-wall.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <img 
-                        src="https://picsum.photos/seed/vintage_mac/800/600" 
-                        alt="Macintosh Classic" 
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="https://picsum.photos/seed/project1/800/600"
+                        alt="Project 1"
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 </a>
             </div>
 
-            {/* Black 3D Logo Card */}
-            <div className="md:col-span-5 bg-black rounded-[2rem] flex items-center justify-center min-h-[350px] relative overflow-hidden group cursor-pointer">
-                <a href="https://github.com/prohv/bulletpages" target="_blank" rel="noopener noreferrer">
-                    <div className="relative w-32 h-32 group-hover:rotate-12 transition-transform duration-500">
-                        <svg viewBox="0 0 100 100" className="w-full h-full text-white stroke-current fill-none stroke-[8]">
-                            <path d="M20,20 L50,20 L50,80 L20,80 Z" transform="translate(0, 10)" />
-                            <path d="M60,20 L90,20 L90,80 L60,80 Z" transform="translate(0, 10)" />
-                        </svg>
-                    </div>
-                </a>
-            </div>
-
-            {/* Bottom Green Texture Card */}
-            <div className="md:col-span-12 bg-[#1a4d3d] rounded-[2rem] min-h-[280px] overflow-hidden relative shadow-sm group">
-                <a href="https://github.com/prohv/autoport" target="_blank" rel="noopener noreferrer">
-                    <img 
-                        src="https://picsum.photos/seed/green_texture/1200/400" 
-                        alt="Green Texture" 
-                        className="w-full h-full object-cover opacity-80 mix-blend-overlay"
+            {/* Project Image Card 2 */}
+            <div className="md:col-span-5 bg-gray-200 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="https://picsum.photos/seed/project2/600/600"
+                        alt="Project 2"
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 </a>
-                <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                    <div className="w-full">
-                        <h2 className="text-7xl md:text-8xl font-bold text-white/20 tracking-tighter uppercase whitespace-nowrap animate-scroll">
-                            Good To See You Good To See You Good To See You
-                        </h2>
-                    </div>
-                </div>
-                <div className="absolute bottom-6 left-6 bg-white/90 px-4 py-1 rounded-full text-xs font-bold tracking-widest border border-black/10 text-black">
-                    AMAR
-                </div>
             </div>
 
-            {/* Extra Scrolling Content */}
-            <div className="md:col-span-6 bg-blue-50 rounded-[2rem] h-[350px] p-8 flex flex-col justify-between hover:bg-blue-100 transition-colors cursor-pointer">
-                <div className="text-5xl">✨</div>
-                <p className="text-2xl font-medium leading-tight text-blue-900">
-                    Exploratory design aimed at finding the intersection of utility and delight.
-                </p>
-            </div>
-
-            <div className="md:col-span-6 bg-[#ffedd5] rounded-[2rem] h-[350px] overflow-hidden relative group cursor-pointer">
-                <a href="https://github.com/prohv/Thriftify-Women-Techies-25" target="_blank" rel="noopener noreferrer">
-                    <img 
-                        src="https://picsum.photos/seed/architecture/600/600" 
-                        alt="Architecture" 
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+            {/* Project Image Card 3 */}
+            <div className="md:col-span-5 bg-gray-300 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="https://picsum.photos/seed/project3/600/400"
+                        alt="Project 3"
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 </a>
-                <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/50 to-transparent">
-                    <span className="text-white font-medium">Interior Concepts</span>
-                </div>
+            </div>
+
+            {/* Project Image Card 4 */}
+            <div className="md:col-span-7 bg-gray-400 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="https://picsum.photos/seed/project4/600/400"
+                        alt="Project 4"
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                    />
+                </a>
+            </div>
+
+            {/* Project Image Card 5 */}
+            <div className="md:col-span-6 bg-gray-50 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="https://picsum.photos/seed/project5/600/600"
+                        alt="Project 5"
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                    />
+                </a>
+            </div>
+
+            {/* Project Image Card 6 */}
+            <div className="md:col-span-6 bg-gray-100 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="https://picsum.photos/seed/project6/600/600"
+                        alt="Project 6"
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                    />
+                </a>
             </div>
 
             </div>
