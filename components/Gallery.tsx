@@ -32,62 +32,62 @@ export const Gallery: React.FC<GalleryProps> = ({ currentView, onNavigate }) => 
             <div className="grid grid-cols-1 md:grid-cols-12 gap-4 auto-rows-min">
 
             {/* Project Image Card 1 */}
-            <div className="md:col-span-7 bg-[#e8e6e1] rounded-[2rem] overflow-hidden shadow-sm min-h-[350px] relative group cursor-pointer">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className="md:col-span-7 bg-[#e8e6e1] rounded-[2rem] overflow-hidden shadow-sm min-h-[350px] max-h-[350px] relative group cursor-pointer">
+                <a href="https://github.com/prohv/bulletpages" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="https://picsum.photos/seed/project1/800/600"
-                        alt="Project 1"
+                        src="./public/personal/images/projects/bulletpages-logo.png"
+                        alt="BulletPages"
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 </a>
             </div>
 
             {/* Project Image Card 2 */}
-            <div className="md:col-span-5 bg-gray-200 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className="md:col-span-5 bg-gray-200 rounded-[2rem] overflow-hidden min-h-[350px] max-h-[350px] relative group cursor-pointer">
+                <a href="https://github.com/prohv/goal-wall" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="https://picsum.photos/seed/project2/600/600"
-                        alt="Project 2"
+                        src="./public/personal/images/projects/goalwall-logo.png"
+                        alt="GoalWall"
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 </a>
             </div>
 
             {/* Project Image Card 3 */}
-            <div className="md:col-span-5 bg-gray-300 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className="md:col-span-5 bg-gray-300 rounded-[2rem] overflow-hidden min-h-[350px] max-h-[350px] relative group cursor-pointer">
+                <a href="https://github.com/prohv/correct-spell" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="https://picsum.photos/seed/project3/600/400"
-                        alt="Project 3"
+                        src="./public/personal/images/projects/correctspell-logo.png"
+                        alt="CorrectSpell"
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 </a>
             </div>
 
             {/* Project Image Card 4 */}
-            <div className="md:col-span-7 bg-gray-400 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className="md:col-span-7 bg-gray-400 rounded-[2rem] overflow-hidden min-h-[350px] max-h-[350px] relative group cursor-pointer">
+                <a href="https://github.com/prohv/autoport" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="https://picsum.photos/seed/project4/600/400"
-                        alt="Project 4"
+                        src="./public/personal/images/projects/autoport-logo-white.png"
+                        alt="AutoPort"
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 </a>
             </div>
 
             {/* Project Image Card 5 */}
-            <div className="md:col-span-6 bg-gray-50 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className="md:col-span-6 bg-gray-50 rounded-[2rem] overflow-hidden min-h-[350px] max-h-[350px] relative group cursor-pointer">
+                <a href="https://github.com/prohv/Thriftify-Women-Techies-25" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="https://picsum.photos/seed/project5/600/600"
-                        alt="Project 5"
+                        src="./public/personal/images/projects/thriftify-logo.png"
+                        alt="Thriftify"
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 </a>
             </div>
 
             {/* Project Image Card 6 */}
-            <div className="md:col-span-6 bg-gray-100 rounded-[2rem] overflow-hidden min-h-[350px] relative group cursor-pointer">
+            <div className="md:col-span-6 bg-gray-100 rounded-[2rem] overflow-hidden min-h-[350px] max-h-[350px] relative group cursor-pointer">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                     <img
                         src="https://picsum.photos/seed/project6/600/600"
